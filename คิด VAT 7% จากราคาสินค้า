@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double price, vat, total;
+
+    cout << "Enter product price: ";
+    cin >> price;
+
+    vat = price * 0.07;
+    total = price + vat;
+
+    cout << "VAT (7%): " << vat << " baht" << endl;
+    cout << "Total price with VAT: " << total << " baht" << endl;
+
+    return 0;
+}
